@@ -1,7 +1,7 @@
 import telebot
 import time
 
-TOKEN = "8963620239:AAEDjvp40FjdUB3o97LZTgVwY2L1lepYs2w"
+TOKEN = "8963620239:AAEqmCh0lxmT6oKNcj9xnzsyxr0clvyF6tY"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=["start"])
